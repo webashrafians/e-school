@@ -1,0 +1,120 @@
+/* general style */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.btn-school {
+    background: #21B573;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.section-title h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+/* header-area */
+.header-area {
+    background: #F0FFF0;
+    height: 560px;
+}
+
+.logo {
+    width: 120px;
+    height: 30px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #000;
+}
+
+.navbar .btn-school {
+    margin-left: 20px;
+}
+
+.hero-area {
+    padding: 100px 0;
+}
+
+.hero-area h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.hero-area h1 span {
+    color: #21B573;
+}
+
+.hero-area p {
+    font-size: 16px;
+    line-height: 36pt;
+    color: #6C6B6B;
+}
+
+.hero-area .btn-school {
+    color: #fff;
+}
+
+
+/* main-area */
+/* information */
+.info-item {
+    width: 100%;
+    padding: 30px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.info-item:hover {
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5)
+}
+
+.info-item img {
+    height: 226px;
+}
+
+/* course-area */
+.course-area{
+    margin: 100px 0;
+}
+
+.card{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img{
+    transition: transform 1s;
+}
+.card:hover img{
+    transform: scale(1.2);
+}
+.card-footer{
+    display: flex; 
+    justify-content: space-between;
+    background: transparent;
+    border-top: none;
+}
+
+.card-footer img{
+    width: 30px;
+}
+
+
+/* testimonial */
+.carousel-item img {
+    width: 200px;
+}
