@@ -1,0 +1,140 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+    .hero-area {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .hero-area h1 {
+        font-size: 30px;
+    }
+
+    .hero-area p {
+        line-height: 24pt;
+    }
+
+    .hero-area img {
+        width: 450px;
+    }
+
+    .info-item img {
+        width: 150px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .hero-area {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .hero-area h1 {
+        font-size: 30px;
+    }
+
+    .hero-area p {
+        line-height: 24pt;
+    }
+
+    .hero-area img {
+        width: 350px;
+    }
+
+    .info-item img {
+        height: 450px;
+    }
+
+    .info-item {
+        margin-bottom: 50px;
+    }
+
+    .card-deck {
+        display: block;
+    }
+
+    .card-deck .card {
+        margin-bottom: 30px;
+    }
+
+    .footer-area {
+        text-align: center;
+    }
+
+    .footer-area p {
+        font-size: 14px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .header-area {
+        height: 630px;
+    }
+
+    .hero-area {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .hero-area h1 {
+        font-size: 30px;
+    }
+
+    .hero-area p {
+        line-height: 24pt;
+    }
+
+    .hero-area img {
+        width: 450px;
+    }
+
+    .info-item img {
+        height: 200px;
+    }
+
+    .info-item {
+        margin-bottom: 30px;
+    }
+
+    .info-item img {
+        height: 300px;
+    }
+
+    .footer-area .about {
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .footer-area .about img {
+        width: 250px;
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    .hero-area {
+        height: 600px;
+    }
+
+    .hero-area h1 {
+        font-size: 40px;
+    }
+
+    .hero-area p {
+        font-size: 14px;
+        line-height: 24pt;
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    ...
+}
